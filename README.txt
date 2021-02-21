@@ -3,6 +3,8 @@
 URL for code
 https://github.com/mkmukund10/assignment1
 
+All data is stored under data folder and plots under plot folder.
+
 This project implements the following 5 different learning algorithms on two different datasets:
 - Decision Tree Classifier
 - Neural Networks
