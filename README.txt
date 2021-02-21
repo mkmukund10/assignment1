@@ -1,7 +1,7 @@
 # CS-7641 Supervised Learning
 
 URL for code
-https://github.com/srpatel625/cs-7641-assignment-1
+https://github.com/mkmukund10/assignment1
 
 This project implements the following 5 different learning algorithms on two different datasets:
 - Decision Tree Classifier
@@ -14,34 +14,36 @@ This project implements the following 5 different learning algorithms on two dif
 ## Getting Started
 
 ### Installing dependencies and running experiments
+The implementation is done through jupyter notebook
 
-Use python 3.6
-Run the following commands to install requirements in a virtual or conda environment and run the experiments. 
-
-```
-pip install -r requirements.txt
-
-python main.py --all
-```
-
-You can also individually run the experiments as shown below
+Install anaconda for running the notebooks
 
 ```
-python main.py -e dt
-python main.py -e nn
-python main.py -e knn
-python main.py -e ada
-python main.py -e svm
+
+You can also individually run the experiments by launching the notebooks using jupyter notebook console
+
+```
+For example - Adult Dataset
+
+- Decision Tree Classifier: DecisionTree_adult.ipynb
+- Neural Networks: NeuralNet_adult.ipynb
+- Boosting (ADABoost): AdaBoost_adult.ipynb
+- SVM: SVN_adult.ipynb
+- k-nearest neighbors: KNN_adult.ipynb
+
 ```
 
 ## Built With
 
-* Python 3.6
+* Python 3.8.5
 * Pandas
 * Numpy
 * Matplotlib
 * sklearn
-* yellowbrick
+
+## Code reference
+
+* For plotting learning curve: https://scikit-learn.org/stable/auto_examples/model_selection/plot_learning_curve.html
 
 ## Author
 * Mukund Kumar
